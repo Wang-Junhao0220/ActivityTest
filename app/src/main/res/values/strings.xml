@@ -8,4 +8,8 @@
     <string name="add">Add</string>
     <string name="remove">Remove</string>
     <string name="about">About</string>
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="hello_world_in_the_second_activity">Hello World in the Second Activity</string>
+    <string name="hello_world_of_android_nclick_to_go_to_the_second_activity">Hello World of Android!\nClick to go to the Second Activity!</string>
+    <string name="click_to_go_back_to_the_first_activity">Click to go back to the First Activity!</string>
 </resources>

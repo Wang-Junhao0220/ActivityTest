@@ -9,7 +9,7 @@
         android:id="@+id/hello_world_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/hello_world_of_android"
+        android:text="@string/hello_world_of_android_nclick_to_go_to_the_second_activity"
         android:textAllCaps="true"
         android:textColor="#FFEB3B"
         android:textSize="30sp" />
@@ -33,7 +33,7 @@
     <WebView
         android:id="@+id/junhax_page"
         android:layout_width="match_parent"
-        android:layout_height="426dp" />
+        android:layout_height="347dp" />
 
     <Button
         android:id="@+id/exit_button"

@@ -1,5 +1,6 @@
 package com.junhax.activitytest
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
@@ -16,6 +17,7 @@ class FirstActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.first_layout)
         val exitBtn = findViewById<Button>(R.id.exit_button)
+
         val helloWorldBtn = findViewById<Button>(R.id.hello_world_button)
         val junhaxPage = findViewById<WebView>(R.id.junhax_page)
         junhaxPage.loadUrl("https://github.com/Wang-Junhao0220")
@@ -25,6 +27,9 @@ class FirstActivity : AppCompatActivity() {
                 "You've just clicked the \n\"Hello, World of Android!\" Button!",
                 Toast.LENGTH_LONG
             ).show()
+            Thread.sleep(500)
+            val intent = Intent(this, SecondActivity::class.java)
+            startActivity(intent)
         }
         exitBtn.setOnClickListener {
             finish()
